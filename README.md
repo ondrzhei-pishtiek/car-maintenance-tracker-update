@@ -19,25 +19,25 @@
 
 ## 📁 Структура проєкту
 
-CAR-MAINTENANCE-TRACKER-MAIN/
-├── .idea/
-├── assets/
-│   └── img/
-│       ├── bg-car.jpg
-│       └── logo.png
-├── css/
-│   ├── components.css
-│   ├── main.css
-│   └── theme.css
-├── js/
-│   ├── app.js
-│   ├── main.js
-│   ├── storage.js
-│   └── utils.js
-├── app.html
-├── contacts.html
-├── index.html
-└── README.md
+##CAR-MAINTENANCE-TRACKER-MAIN/
+##├── .idea/
+##├── assets/
+##│   └── img/
+##│       ├── bg-car.jpg
+##│       └── logo.png
+##├── css/
+##│   ├── components.css
+##│   ├── main.css
+##│   └── theme.css
+##├── js/
+##│   ├── app.js
+##│   ├── main.js
+##│   ├── storage.js
+##│   └── utils.js
+##├── app.html
+##├── contacts.html
+##├── index.html
+##└── README.md
 
 ## 🛠 Використані технології
 - HTML5  
@@ -67,4 +67,5 @@ CAR-MAINTENANCE-TRACKER-MAIN/
 ## 👨‍💻 Автор
 **Ondrzhei Pishtiek**  
 © 2025. All Rights Reserved.
+
 
