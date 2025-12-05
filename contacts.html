@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VehicleCare — Контакти</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/theme.css">
+</head>
+<body>
+
+<header class="top-header">
+    <img src="assets/img/logo.png" class="logo" alt="VehicleCare Logo">
+    <nav>
+        <a href="index.html">Головна</a> |
+        <a href="app.html">VehicleCare</a> |
+        <a href="contacts.html">Контакти</a>
+    </nav>
+    <button id="themeBtn" class="theme-toggle">Dark / Light</button>
+</header>
+
+<main>
+    <h1>Контакти</h1>
+    
+    <section>
+        <h2>Зв'язок</h2>
+        <ul>
+            <li>Email: <a href="mailto:ondrzhei.pishtiek@ukd.edu.ua">ondrzhei.pishtiek@ukd.edu.ua</a></li>
+            <li>Телефон: <a href="tel:+380684653369">0684653369</a></li>
+            <li>Telegram: <a href="https://t.me/dessais" target="_blank">@dessais</a></li>
+
+        </ul>
+    </section>
+
+    <section>
+        <h2>Напишіть нам</h2>
+        <form>
+            <input type="text" placeholder="Ваше ім'я" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Ваше повідомлення" rows="5" required></textarea>
+            <button type="submit">Відправити</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p class="footer-info">
+        © 2025 VehicleCare. All Rights Reserved.
+    </p>
+</footer>
+
+<script>
+    document.getElementById("themeBtn").onclick = () => {
+        document.body.classList.toggle("dark");
+    };
+</script>
+
+</body>
+</html>

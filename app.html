@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VehicleCare — Service Book</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/theme.css">
+</head>
+<body>
+
+<header class="top-header">
+    <img src="assets/img/logo.png" class="logo" alt="VehicleCare Logo">
+    <nav>
+        <a href="index.html">Головна</a> |
+        <a href="app.html">VehicleCare</a> |
+        <a href="contacts.html">Контакти</a>
+    </nav>
+    <button id="themeBtn" class="theme-toggle">Dark / Light</button>
+</header>
+
+<main>
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VehicleCare — Service Book</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+<header class="top-header">
+    <img src="assets/img/logo.png" class="logo" alt="VehicleCare Logo">
+    <div>
+        <h1>VehicleCare — Service Book</h1>
+        <p class="subtitle">Електронна сервісна книжка для власників авто</p>
+    </div>
+
+    <button id="themeBtn" class="theme-toggle">Dark / Light</button>
+</header>
+
+<main>
+
+    <!-- ДОДАТИ СВОЄ АВТО -->
+    <section class="vehicle-add">
+        <label for="newVehicleInput">Додати авто (марка і модель):</label>
+        <div class="vehicle-add-row">
+            <input id="newVehicleInput" type="text" placeholder="Напр.: VW Golf 5 (2.0 TDI)">
+            <button id="addVehicleBtn">Додати авто</button>
+        </div>
+    </section>
+
+    <!-- Вибір авто -->
+    <section class="vehicle-select">
+        <label>Виберіть авто:</label>
+        <select id="vehicleSelector"></select>
+        <button id="removeVehicleBtn" class="small-btn">Видалити обране авто</button>
+    </section>
+
+    <!-- Форма: ТЕПЕР - SELECT З ЗАДАЧАМИ -->
+    <section class="form-section">
+        <div class="autocomplete-wrapper">
+            <!-- Замінено: було input з автодоповненням, тепер select з варіантами -->
+            <select id="taskSelect">
+                <option value="">-- Оберіть задачу --</option>
+            </select>
+        </div>
+
+        <input type="number" id="mileageInput" placeholder="Пробіг (км)">
+        <input type="date" id="dateInput">
+        <button id="addBtn">Добавити запис</button>
+    </section>
+
+    <!-- Фільтр -->
+    <section class="filter-section">
+        <input type="number" id="filterMileage" placeholder="Фільтр за макс. пробігом">
+        <button id="filterBtn">Застосувати Фільтр</button>
+        <button id="resetFilterBtn">Скинути</button>
+        <button id="exportCsvBtn" class="export-btn">Export CSV</button>
+        <button id="exportBtn" class="export-btn">Export JSON</button>
+    </section>
+
+    <!-- Статистика -->
+    <section class="stats-section">
+        <h2>Статистика</h2>
+        <p>Всього робіт: <span id="statTotal">0</span></p>
+        <!-- Динамічні статистики по машинах з'являться сюди -->
+        <div id="statPerVehicle"></div>
+        <p>Середній пробіг: <span id="statAvg">0</span> km</p>
+        <p>Останній запис: <span id="statLast">—</span></p>
+        <button id="clearAll" class="clear-btn">Видалити всі дані</button>
+    </section>
+
+    <!-- Таблиця -->
+    <section class="tasks-section">
+        <h2>Список робіт</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Автомобіль</th>
+                    <th>Задача</th>
+                    <th>Пробіг</th>
+                    <input type="file" id="fileInput" multiple accept="image/*,application/pdf">
+<p id="fileNames" style="font-size:0.9em; color:gray;"></p>
+
+                    <th>Дата</th>
+                    <th>Видалити</th>
+                </tr>
+            </thead>
+            <tbody id="taskTable"></tbody>
+        </table>
+    </section>
+
+</main>
+
+<footer>
+    <p class="footer-info">
+        <strong>VehicleCare — Digital Maintenance Tracker</strong><br>
+        © 2025 Ondrzhei Pishtiek. All Rights Reserved.<br>
+        Developed by Ondrzhei Pishtiek.
+    </p>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
+
+</main>
+
+<footer>
+    <p class="footer-info">
+        © 2025 VehicleCare. All Rights Reserved.
+    </p>
+</footer>
+
+<script src="js/app.js"></script>
+<script>
+    document.getElementById("themeBtn").onclick = () => {
+        document.body.classList.toggle("dark");
+    };
+</script>
+
+</body>
+</html>
